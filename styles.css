@@ -26,6 +26,10 @@ form input{
     font-size: 12px;
     border: 1px solid hsl(223, 100%, 88%);
 }
+form input.active:hover{
+    border-color: rgb(243, 7, 54);
+    box-shadow: 0 0 5px red;
+}
 button{
     border-radius: 20px;
     padding: 10px 38px;
@@ -34,9 +38,11 @@ button{
     border: 1px solid hsl(223, 100%, 88%);
     color: aliceblue;
     background-color: hsl(223, 87%, 63%);
+    cursor: pointer;
 }
 .illustration img{
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 .icons{
     display: flex;
@@ -47,4 +53,25 @@ button{
 .copyright p{
     font-size: 10px;
     color: hsl(0, 0%, 59%);
+}
+.mess{
+    font-size: 0.6em;
+    color: red;
+    margin-left: -15%;
+}
+
+@media screen and (max-width: 500px) {
+    button{
+        border-radius: 20px;
+        padding: 10px 115px;
+        font-size: 12px;
+        max-width: 600px;
+        border: 1px solid hsl(223, 100%, 88%);
+        color: aliceblue;
+        background-color: hsl(223, 87%, 63%);
+        cursor: pointer;
+        display: block;
+        margin-top: 30px;
+        margin-left: 15%;
+    }
 }
