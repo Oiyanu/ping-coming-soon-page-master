@@ -75,3 +75,43 @@ button{
         margin-left: 15%;
     }
 }
+@media screen and (max-width: 451px) {
+    button{
+        border-radius: 20px;
+        padding: 10px 110px;
+        font-size: 12px;
+        border: 1px solid hsl(223, 100%, 88%);
+        color: aliceblue;
+        background-color: hsl(223, 87%, 63%);
+        cursor: pointer;
+        display: block;
+        margin-top: 30px;
+        margin-left: 12%;
+    }
+    .illustration img{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        width: 305px;
+        height: 195px;
+    }
+}
+@media screen and (max-width: 375px) {
+    button{
+        border-radius: 20px;
+        padding: 10px 110px;
+        font-size: 12px;
+        border: 1px solid hsl(223, 100%, 88%);
+        color: aliceblue;
+        background-color: hsl(223, 87%, 63%);
+        cursor: pointer;
+        display: block;
+        margin-top: 30px;
+        margin-left: 4%;
+    }
+    .illustration img{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        width: 305px;
+        height: 195px;
+    }
+}
